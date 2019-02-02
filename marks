@@ -1,0 +1,17 @@
+{
+	FS=" ";	
+	
+	text=($1 + $2 + $3)/3;
+	if(text >=80){
+	print $1" "$2" "$3":""A"
+	}
+	else if(text >=60){
+	print $1" "$2" "$3":""B"
+	}
+	else if(text >=40){
+	print $1" "$2" "$3":""C"
+	}
+	else{
+	print $1" "$2" "$3":""F"
+	}
+}
